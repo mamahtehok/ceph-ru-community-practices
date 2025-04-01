@@ -1,0 +1,1 @@
+# ceph-ru-community-practices

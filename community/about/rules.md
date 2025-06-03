@@ -34,7 +34,7 @@ tags: [ansible, shell, devops]
    git checkout -b my-best-advise
     ```
 
-3. Добавьте Markdown-файл в нужный раздел community/about/, например: `community/about/my-best-advise.md`
+3. Добавьте Markdown-файл в нужный раздел community/, например: `community/about/my-best-advise.md`
 4. Укажите в начале frontmatter: 
     ``` md
     ---

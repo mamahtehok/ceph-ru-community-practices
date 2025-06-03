@@ -1,9 +1,9 @@
-    ---
-    id: nvme-perf-tests
-    title: Тесты производительности nvme дисков
-    description: Собираем тесты производительности nvme дисков
-    tags: [hardware, drive, perf, tests, nvme]
-    ---
+---
+id: nvme-perf-tests
+title: Тесты производительности nvme дисков
+description: Собираем тесты производительности nvme дисков
+tags: [hardware, drive, perf, tests, nvme]
+---
 
 # Тесты nvme дисков
 

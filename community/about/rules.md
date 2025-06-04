@@ -2,7 +2,7 @@
 id: rules
 title: Как написать совет?
 description: Правила и инструкция по написанию совета в этот раздел.
-tags: [ansible, shell, devops]
+tags: [styleguide, Markdown, rules]
 ---
 
 
@@ -34,7 +34,7 @@ tags: [ansible, shell, devops]
    git checkout -b my-best-advise
     ```
 
-3. Добавьте Markdown-файл в нужный раздел community/, например: `community/about/my-best-advise.md`
+3. Добавьте Markdown-файл в нужный раздел community/, например: `community/my-best-advise/my-best-advise.md`
 4. Укажите в начале frontmatter: 
     ``` md
     ---

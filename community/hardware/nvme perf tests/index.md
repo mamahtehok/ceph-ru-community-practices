@@ -26,7 +26,7 @@ fio -ioengine=libaio -direct=1 -invalidate=1 -name=SeqR4Md32t600 -bs=4M -iodepth
 ```
 в таблицу вставляем результат 
 ```bash
-jq '.jobs[].read.bw' SeqR4Md32t600.json 
+jq '.jobs[].read.bw_bytes' SeqR4Md32t600.json 
 ```
 ---
 По возможности приложите полные файлы тестов в папку fio-results, подпапка с именем производитель_модель
@@ -35,4 +35,4 @@ jq '.jobs[].read.bw' SeqR4Md32t600.json
 
 | Производитель | Модель | FW rev |Размер | Тест 1 | Тест 2 |
 | --- | --- | --- | --- | --- | --- |
-| INTEL | SSDPF2KE032T1O | 9CV10450 | 3.20  TB |3763883354| 6753895 |
+| INTEL | SSDPF2KE032T1O | 9CV10450 | 3.20  TB |3763883354| 6915988689 |

@@ -27,7 +27,7 @@ benchmarks:
     # read_only: True
     # readmode: seq
     # prefill_time: 30
-    time: 10
+    time: 300
     concurrent_ops: 128
     concurrent_procs:
       - 1

@@ -8,8 +8,9 @@ ENV DEBIAN_FRONTEND=noninteractive
 RUN apt-get update && \
     apt-get install -y \
     ceph-common \
+    fio \
     vim \
-		python3 \
+    python3 \
     python3-yaml \
     python3-lxml \
     && rm -rf /var/lib/apt/lists/*

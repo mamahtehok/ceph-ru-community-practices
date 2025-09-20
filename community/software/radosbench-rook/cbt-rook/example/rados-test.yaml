@@ -23,11 +23,12 @@ benchmarks:
   radosbench:
     op_size:
       - 4096
+      - 4194304
     write_only: true
     # read_only: True
     # readmode: seq
     # prefill_time: 30
-    time: 10
+    time: 300
     concurrent_ops: 128
     concurrent_procs:
       - 1

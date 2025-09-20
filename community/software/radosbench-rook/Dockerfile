@@ -8,13 +8,10 @@ ENV DEBIAN_FRONTEND=noninteractive
 RUN apt-get update && \
     apt-get install -y \
     ceph-common \
-    fio \
     vim \
-		pdsh \
 		python3 \
     python3-yaml \
     python3-lxml \
-    mc \
     && rm -rf /var/lib/apt/lists/*
 
 ADD cbt-rook/ /cbt-rook
